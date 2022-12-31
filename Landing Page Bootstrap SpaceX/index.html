@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumo a Marte</title>
+    <link
+      rel="shortcut icon"
+      href="imgs/FAVICON-SPACEX.png"
+      type="image/x-icon"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="py-5">
+    <div class="container px-4 container1">
+      <!-- Logo -->
+      <div class="text-center">
+        <img
+          class="img-fluid top-logo"
+          src="imgs/SpaceXLogo.png"
+          alt="LPLogo"
+        />
+      </div>
+      <!--Primeira Div do Form-->
+      <p class="paragraph">1- Qual seu nome?</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Primeiro Nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite Aqui"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Segundo Nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite Aqui"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <!--Segunda Div do Form-->
+      <p class="paragraph mt-3">2- Qual seu genero?</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios1"
+          value="Homem"
+        />
+        <label class="form-check-label" for="exampleRadios1"> Homem </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios2"
+          value="Mulher"
+        />
+        <label class="form-check-label" for="exampleRadios2"> Mulher </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios3"
+          value="NaoInformar"
+        />
+        <label class="form-check-label" for="exampleRadios3">
+          Prefiro não informar
+        </label>
+      </div>
+      <!--Terceira Div do Form-->
+      <p class="paragraph mt-3">3- Marque os treinamentos que voce fez</p>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento basico de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="flexSwitchCheckChecked"
+        />
+        <label class="form-check-label" for="flexSwitchCheckChecked"
+          >Treinamento fisico basico</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="flexSwitchCheckDisabled"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDisabled"
+          >Treinamento avacado de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="flexSwitchCheckCheckedDisabled"
+        />
+        <label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+          >Treinamento fisico intenso</label
+        >
+      </div>
+      <!--Terceira Div do Form-->
+      <p class="paragraph mt-3">4 - Quais voce acha que sao suas qualidades?</p>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox1"
+          value="option1"
+        />
+        <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox2"
+          value="option2"
+        />
+        <label class="form-check-label" for="inlineCheckbox2">Resistente</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option3"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Nao vomito facil</label
+        >
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox2"
+          value="option4"
+        />
+        <label class="form-check-label" for="inlineCheckbox2"
+          >Nao temo Marcianos</label
+        >
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option5"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Ja vi todos os star wars</label
+        >
+      </div>
+      <!-- Quinta Div do Form-->
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-danger btnsend">
+          Enviar
+        </button>
+      </div>
+    </div>
+    <div class="container text-center footer mt-3">
+      <p>Feito por Murilo Cruz de Santana &copy;</p>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

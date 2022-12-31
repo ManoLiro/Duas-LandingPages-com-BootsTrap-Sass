@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+body {
+  background-image: url(../../imgs/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+.container1 {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+}
+.top-logo {
+  width: 185px;
+  margin: 30px;
+}
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnsend {
+  color: $button-color;
+  border: 1px solid $button-color;
+  margin: 15px;
+
+  &hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.footer {
+  margin: 30px auto;
+}
+
+@media (max-width: 585px) {
+  .container1 {
+    background-color: $background-color;
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 375px) {
+  .container1 {
+    background-color: $background-color;
+    width: 250px;
+    height: auto;
+    font-size: 12px;
+  }
+}
